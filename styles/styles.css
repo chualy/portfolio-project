@@ -1,12 +1,37 @@
 h1 {
-  color: cornflowerblue;
+  color: #1f54b0;
   font-family: "Philosopher", sans-serif;
   font-size: 96px;
   font-weight: bold;
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
 }
 
 p {
-  font-family: "Mulish", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 24px;
-  color: #586486;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 28px;
+  color: rgba(0, 0, 0, 0.6);
+  line-height: 2;
+}
+
+.hero {
+  background-color: #e9f5fc;
+  text-align: center;
+  padding: 100px;
+}
+
+.btn {
+  margin: 30px;
+  background-color: #5e8de0;
+  border-color: #5e8de0;
+}
+
+.btn:hover {
+  background-color: #a9c5e4;
+  color: #0d3e70;
+  box-shadow: 3px 3px 3px rgba(122, 118, 118, 0.2);
 }
