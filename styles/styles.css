@@ -1,3 +1,11 @@
+root {
+  --branding-color: #5e8de0;
+  --accent-color: #1f54b0;
+  --secondary-color: #d9e3f4;
+  --background-color: #e9f5fc;
+  --contrast-color: #e0ce57;
+}
+
 h1,
 h2,
 h3,
@@ -15,7 +23,7 @@ p {
 }
 
 h1 {
-  color: #1f54b0;
+  color: var(--accent-color);
   font-size: 96px;
 }
 
@@ -30,7 +38,7 @@ h3 {
 
 h4 {
   font-size: 36px;
-  color: #1f54b0;
+  color: var(--accent-color);
 }
 
 p {
@@ -43,7 +51,7 @@ p {
 }
 
 .hero {
-  background-color: #e9f5fc;
+  background-color: --background-color;
   text-align: center;
   padding: 60px;
   margin-bottom: 40px;
@@ -58,21 +66,21 @@ p {
 }
 
 .prime-btn {
-  background-color: #5e8de0;
-  border-color: #5e8de0;
+  background-color: var(--branding-color);
+  border-color: var(--branding-color);
 }
 
 .second-btn {
-  color: #5e8de0;
-  background-color: #d9e3f4;
-  border-color: #d9e3f4;
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
 }
 
 .prime-btn:hover,
 .second-btn:hover {
-  background-color: #e0ce57;
-  border-color: #e0ce57;
-  color: #0d3e70;
+  background-color: --contrast-color;
+  border-color: --contrast-color;
+  color: var(--accent-color);
   box-shadow: 4px 4px 3px rgba(122, 118, 118, 0.3);
   transition: all ease-in-out 200ms;
 }
