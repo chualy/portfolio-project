@@ -24,7 +24,7 @@ h2 {
 
 h3 {
   font-size: 32px;
-  color: rgba(0, 0, 0, 0.7);
+  color: rgba(0, 0, 0, 0.6);
 }
 
 h4 {
@@ -38,18 +38,18 @@ p {
 
 .hero p {
   font-size: 40px;
-  font-weight: bold;
+  font-weight: semibold;
 }
 
 .hero {
   background-color: #e9f5fc;
   text-align: center;
-  padding: 100px;
+  padding: 80px;
   margin-bottom: 50px;
 }
 
-.about-btn,
-.contact-btn {
+.prime-btn,
+.second-btn {
   margin: 30px;
 
   padding: 15px 20px;
@@ -57,21 +57,22 @@ p {
   box-shadow: 3px 3px 3px rgba(122, 118, 118, 0.2);
 }
 
-.about-btn {
+.prime-btn {
+  background-color: #5e8de0;
+  border-color: #5e8de0;
+}
+
+.second-btn {
   color: #5e8de0;
   background-color: #d9e3f4;
   border-color: #d9e3f4;
 }
 
-.contact-btn {
-  background-color: #5e8de0;
-  border-color: #5e8de0;
-}
-
-.about-btn:hover,
-.contact-btn:hover {
+.prime-btn:hover,
+.second-btn:hover {
   background-color: #e0ce57;
+  border-color: #e0ce57;
   color: #0d3e70;
   box-shadow: 4px 4px 3px rgba(122, 118, 118, 0.3);
-  transition: all ease-in-out 300ms;
+  transition: all ease-in-out 200ms;
 }
