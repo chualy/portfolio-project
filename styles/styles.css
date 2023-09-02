@@ -1,4 +1,4 @@
-root {
+:root {
   --branding-color: #5e8de0;
   --accent-color: #1f54b0;
   --secondary-color: #d9e3f4;
@@ -51,7 +51,7 @@ p {
 }
 
 .hero {
-  background-color: --background-color;
+  background-color: var(--background-color);
   text-align: center;
   padding: 60px;
   margin-bottom: 40px;
@@ -78,8 +78,8 @@ p {
 
 .prime-btn:hover,
 .second-btn:hover {
-  background-color: --contrast-color;
-  border-color: --contrast-color;
+  background-color: var(--contrast-color);
+  border-color: var(--contrast-color);
   color: var(--accent-color);
   box-shadow: 4px 4px 3px rgba(122, 118, 118, 0.3);
   transition: all ease-in-out 200ms;
