@@ -20,7 +20,6 @@ h1 {
 
 h2 {
   font-size: 60px;
-  color: #0ca797;
 }
 
 h3 {
@@ -34,13 +33,12 @@ h4 {
 }
 
 p {
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .hero p {
-  font-size: 24px;
+  font-size: 40px;
   font-weight: bold;
-  line-height: 1.5;
 }
 
 .hero {
@@ -50,17 +48,30 @@ p {
   margin-bottom: 50px;
 }
 
-.btn {
+.about-btn,
+.contact-btn {
   margin: 30px;
-  background-color: #5e8de0;
-  border-color: #5e8de0;
+
   padding: 15px 20px;
   border-radius: 8px;
+  box-shadow: 3px 3px 3px rgba(122, 118, 118, 0.2);
 }
 
-.btn:hover {
-  background-color: #a9c5e4;
+.about-btn {
+  color: #5e8de0;
+  background-color: #d9e3f4;
+  border-color: #d9e3f4;
+}
+
+.contact-btn {
+  background-color: #5e8de0;
+  border-color: #5e8de0;
+}
+
+.about-btn:hover,
+.contact-btn:hover {
+  background-color: #e0ce57;
   color: #0d3e70;
-  box-shadow: 3px 3px 3px rgba(122, 118, 118, 0.2);
-  transition: ease-in-out, 600ms;
+  box-shadow: 4px 4px 3px rgba(122, 118, 118, 0.3);
+  transition: all ease-in-out 300ms;
 }
