@@ -1,9 +1,12 @@
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family: "Libre Baskerville", serif;
   font-weight: bold;
-  margin: 30px;
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  margin: 40px;
+  text-align: center;
 }
 
 p {
@@ -13,18 +16,21 @@ p {
 h1 {
   color: #1f54b0;
   font-size: 96px;
-  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
 }
 
 h2 {
-  font-size: 36px;
-  color: #1f54b0;
+  font-size: 60px;
+  color: #0ca797;
 }
 
 h3 {
   font-size: 32px;
   color: rgba(0, 0, 0, 0.7);
-  line-height: 2;
+}
+
+h4 {
+  font-size: 36px;
+  color: #1f54b0;
 }
 
 p {
@@ -41,6 +47,7 @@ p {
   background-color: #e9f5fc;
   text-align: center;
   padding: 100px;
+  margin-bottom: 50px;
 }
 
 .btn {
