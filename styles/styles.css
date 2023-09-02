@@ -44,17 +44,16 @@ p {
 .hero {
   background-color: #e9f5fc;
   text-align: center;
-  padding: 80px;
-  margin-bottom: 50px;
+  padding: 60px;
+  margin-bottom: 40px;
 }
 
 .prime-btn,
 .second-btn {
-  margin: 30px;
-
-  padding: 15px 20px;
+  margin: 10px;
+  padding: 10px 20px;
   border-radius: 8px;
-  box-shadow: 3px 3px 3px rgba(122, 118, 118, 0.2);
+  box-shadow: 3px 3px 3px rgba(122, 118, 118, 0.3);
 }
 
 .prime-btn {
@@ -75,4 +74,38 @@ p {
   color: #0d3e70;
   box-shadow: 4px 4px 3px rgba(122, 118, 118, 0.3);
   transition: all ease-in-out 200ms;
+}
+
+@media (max-width: 768px) {
+  h1,
+  h2,
+  h3,
+  h4 {
+    margin: 30px;
+  }
+
+  h1 {
+    font-size: 72px;
+  }
+
+  h2 {
+    font-size: 52px;
+  }
+
+  h3 {
+    font-size: 26px;
+  }
+
+  h4 {
+    font-size: 32px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .hero p {
+    font-size: 32px;
+    font-weight: semibold;
+  }
 }
