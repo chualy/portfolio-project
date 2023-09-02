@@ -1,22 +1,40 @@
-h1 {
-  color: #1f54b0;
-  font-family: "Philosopher", sans-serif;
-  font-size: 96px;
+h1,
+h2,
+h3 {
+  font-family: "Libre Baskerville", serif;
   font-weight: bold;
-  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  margin: 30px;
 }
 
 p {
   font-family: "Manrope", sans-serif;
-  font-size: 24px;
-  font-weight: bold;
+}
+
+h1 {
+  color: #1f54b0;
+  font-size: 96px;
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  font-size: 36px;
+  color: #1f54b0;
 }
 
 h3 {
-  font-family: "Philosopher", sans-serif;
   font-size: 32px;
   color: rgba(0, 0, 0, 0.7);
   line-height: 2;
+}
+
+p {
+  font-size: 20px;
+}
+
+.hero p {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.5;
 }
 
 .hero {
