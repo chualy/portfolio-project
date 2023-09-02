@@ -13,8 +13,9 @@ p {
 }
 
 h3 {
-  font-size: 28px;
-  color: rgba(0, 0, 0, 0.6);
+  font-family: "Philosopher", sans-serif;
+  font-size: 32px;
+  color: rgba(0, 0, 0, 0.7);
   line-height: 2;
 }
 
@@ -28,10 +29,13 @@ h3 {
   margin: 30px;
   background-color: #5e8de0;
   border-color: #5e8de0;
+  padding: 15px 20px;
+  border-radius: 8px;
 }
 
 .btn:hover {
   background-color: #a9c5e4;
   color: #0d3e70;
   box-shadow: 3px 3px 3px rgba(122, 118, 118, 0.2);
+  transition: ease-in-out, 600ms;
 }
