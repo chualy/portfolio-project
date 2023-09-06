@@ -85,6 +85,10 @@ p {
   transition: all ease-in-out 200ms;
 }
 
+.about-section {
+  padding: 100px;
+}
+
 @media (max-width: 768px) {
   h1,
   h2,
