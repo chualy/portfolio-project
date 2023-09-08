@@ -12,14 +12,9 @@ h3,
 h4 {
   font-family: "Libre Baskerville", serif;
   font-weight: bold;
-  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
   margin: 40px;
   text-align: center;
-}
-
-p {
-  font-family: "Manrope", sans-serif;
-  opacity: 0.9;
 }
 
 h1 {
@@ -42,12 +37,9 @@ h4 {
 }
 
 p {
+  font-family: "Manrope", sans-serif;
+  opacity: 0.9;
   font-size: 24px;
-}
-
-.hero p {
-  font-size: 40px;
-  font-weight: semibold;
 }
 
 .hero {
@@ -55,6 +47,11 @@ p {
   text-align: center;
   padding: 60px;
   margin-bottom: 40px;
+}
+
+.hero p {
+  font-size: 40px;
+  font-weight: semibold;
 }
 
 .prime-btn,
