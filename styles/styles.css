@@ -86,6 +86,13 @@ p {
   padding: 10px 100px;
 }
 
+.form-section {
+  max-width: 60%;
+  background-color: var(--background-color);
+  margin: 0 auto;
+  font-weight: bsemibold;
+}
+
 @media (max-width: 768px) {
   h1,
   h2,
@@ -127,5 +134,9 @@ p {
 
   .about-img {
     width: 80%;
+  }
+
+  .form-section {
+    max-width: 100%;
   }
 }
