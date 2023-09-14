@@ -6,6 +6,10 @@
   --contrast-color: #e0ce57;
 }
 
+body {
+  font-family: "Manrope", sans-serif;
+}
+
 h1,
 h2,
 h3,
@@ -37,9 +41,40 @@ h4 {
 }
 
 p {
-  font-family: "Manrope", sans-serif;
   opacity: 0.9;
   font-size: 24px;
+}
+
+.logo {
+  max-width: 60px;
+}
+
+nav ul {
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  font-size: 24px;
+  font-weight: 700;
+  margin-left: 40px;
+}
+
+nav a {
+  text-decoration-line: none;
+  color: var(--accent-color);
+}
+
+nav a:hover {
+  color: var(--branding-color);
+  text-decoration-line: underline;
+  transition: all ease-in-out 200ms;
+}
+
+nav .active {
+  text-decoration-line: none;
+  color: var(--branding-color);
 }
 
 .hero {
