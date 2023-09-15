@@ -4,6 +4,7 @@
   --secondary-color: #d9e3f4;
   --background-color: #e9f5fc;
   --contrast-color: #e0ce57;
+  --second-contrast-color: #05a8aa;
 }
 
 body {
@@ -110,10 +111,11 @@ nav .active {
 
 .prime-btn:hover,
 .second-btn:hover {
-  background-color: var(--contrast-color);
-  border-color: var(--contrast-color);
-  color: var(--accent-color);
-  box-shadow: 4px 4px 3px rgba(122, 118, 118, 0.3);
+  background-color: var(--second-contrast-color);
+  border-color: var(--second-contrast-color);
+  color: var(--contrast-color);
+  font-weight: 600;
+  box-shadow: 4px 4px 2px rgba(122, 118, 118, 0.5);
   transition: all ease-in-out 200ms;
 }
 
@@ -126,6 +128,42 @@ nav .active {
   background-color: var(--background-color);
   margin: 0 auto;
   font-weight: bsemibold;
+}
+
+footer {
+  margin: 20px;
+  padding: 20px;
+}
+
+footer .email-link {
+  padding: 20px;
+}
+
+footer .email-link a {
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--accent-color);
+  font-size: 20px;
+}
+
+footer .social-links a {
+  font-size: 30px;
+  padding: 5px 15px;
+  margin: 20px;
+  color: var(--accent-color);
+  background-color: var(--background-color);
+  border-radius: 50%;
+}
+
+footer .email-link a:hover {
+  color: var(--branding-color);
+  text-decoration: underline;
+}
+
+footer .social-links a:hover {
+  color: var(--background-color);
+  background-color: var(--branding-color);
+  transition: all ease-in-out 300ms;
 }
 
 @media (max-width: 768px) {
