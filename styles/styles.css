@@ -51,6 +51,7 @@ p {
 
 nav ul {
   margin: 0;
+  padding: 0;
 }
 
 nav li {
@@ -197,10 +198,7 @@ footer small a:hover {
   }
 
   nav li {
-    display: inline;
-    list-style: none;
     font-size: 18px;
-    font-weight: 600;
     margin-left: 10px;
   }
 
