@@ -192,6 +192,18 @@ footer small a:hover {
 }
 
 @media (max-width: 768px) {
+  .logo {
+    max-width: 50px;
+  }
+
+  nav li {
+    display: inline;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 10px;
+  }
+
   h1,
   h2,
   h3,
@@ -219,6 +231,10 @@ footer small a:hover {
     font-size: 18px;
   }
 
+  .hero {
+    padding: 5px;
+  }
+
   .hero p {
     font-size: 32px;
     font-weight: semibold;
@@ -227,7 +243,7 @@ footer small a:hover {
   .section-intro,
   .content {
     text-align: center;
-    padding: 0;
+    padding: 5px;
   }
 
   .about-img {
@@ -236,5 +252,22 @@ footer small a:hover {
 
   .form-section {
     max-width: 100%;
+  }
+
+  footer {
+    margin: 5px 10px 10px 10px;
+    padding: 0;
+  }
+
+  footer .email-link a {
+    font-size: 16px;
+  }
+
+  footer .social-links a {
+    font-size: 22px;
+  }
+
+  small {
+    line-height: 1.2;
   }
 }
