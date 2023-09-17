@@ -3,8 +3,7 @@
   --accent-color: #1f54b0;
   --secondary-color: #d9e3f4;
   --background-color: #e9f5fc;
-  --contrast-color: #e0ce57;
-  --second-contrast-color: #05a8aa;
+  --contrast-color: #e09e5e;
 }
 
 body {
@@ -17,7 +16,7 @@ h3,
 h4 {
   font-family: "Libre Baskerville", serif;
   font-weight: bold;
-  text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
   margin: 40px;
   text-align: center;
 }
@@ -64,18 +63,18 @@ nav li {
 
 nav a {
   text-decoration-line: none;
-  color: var(--accent-color);
+  color: var(--branding-color);
 }
 
 nav a:hover {
-  color: var(--branding-color);
+  color: var(--contrast-color);
   text-decoration-line: underline;
   transition: all ease-in-out 200ms;
 }
 
 nav .active {
   text-decoration-line: none;
-  color: var(--branding-color);
+  color: var(--accent-color);
 }
 
 .hero {
@@ -96,6 +95,7 @@ nav .active {
   padding: 10px 20px;
   border-radius: 8px;
   box-shadow: 3px 3px 3px rgba(122, 118, 118, 0.3);
+  font-weight: 600;
 }
 
 .prime-btn {
@@ -111,9 +111,9 @@ nav .active {
 
 .prime-btn:hover,
 .second-btn:hover {
-  background-color: var(--second-contrast-color);
-  border-color: var(--second-contrast-color);
-  color: var(--contrast-color);
+  background-color: var(--contrast-color);
+  border-color: var(--contrast-color);
+  color: var(--accent-color);
   font-weight: 600;
   box-shadow: 4px 4px 2px rgba(122, 118, 118, 0.5);
   transition: all ease-in-out 200ms;
@@ -132,7 +132,20 @@ nav .active {
 
 footer {
   margin: 20px;
-  padding: 20px;
+  padding: 40px 0 0 0;
+}
+
+footer .contact-box {
+  background-color: var(--background-color);
+  padding: 10px 20px;
+  margin: 0 auto;
+  width: 50%;
+  border-radius: 30px;
+}
+
+footer .contact-box p,
+h4 {
+  margin: 20px;
 }
 
 footer .email-link {
@@ -142,28 +155,40 @@ footer .email-link {
 footer .email-link a {
   text-decoration: none;
   font-weight: 600;
-  color: var(--accent-color);
+  color: var(--branding-color);
   font-size: 20px;
 }
 
 footer .social-links a {
-  font-size: 30px;
-  padding: 5px 15px;
+  font-size: 26px;
+  padding: 5px 10px;
   margin: 20px;
-  color: var(--accent-color);
+  color: var(--branding-color);
   background-color: var(--background-color);
   border-radius: 50%;
 }
 
 footer .email-link a:hover {
-  color: var(--branding-color);
+  color: var(--contrast-color);
   text-decoration: underline;
 }
 
 footer .social-links a:hover {
-  color: var(--background-color);
-  background-color: var(--branding-color);
+  color: var(--accent-color);
+  background-color: var(--contrast-color);
+  box-shadow: 3px 3px 2px rgba(122, 118, 118, 0.35);
   transition: all ease-in-out 300ms;
+}
+
+small {
+  line-height: 5;
+}
+
+footer small a {
+  color: var(--branding-color);
+}
+footer small a:hover {
+  color: var(--contrast-color);
 }
 
 @media (max-width: 768px) {
