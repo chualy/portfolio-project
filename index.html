@@ -29,7 +29,11 @@
     ></script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Yen Chua - Aspiring Front-end Developer</title>
+    <meta
+      name="description"
+      content="Yen Chua is an aspiring Front-end Developer based in Singapore."
+    />
+    <title>Yen Chua - Aspiring Front-end Developer | Home</title>
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
   </head>
   <body>
@@ -37,12 +41,14 @@
       <div
         class="d-flex justify-content-center justify-content-md-around align-items-center my-2 my-md-3"
       >
-        <a href="/"><img src="images/logo.png" class="logo" alt="logo" /></a>
+        <a href="/" title="Home"
+          ><img src="images/logo.png" class="logo" alt="Yen Chua logo"
+        /></a>
         <ul>
-          <li><a href="/" class="active">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li><a href="/" title="Home" class="active">Home</a></li>
+          <li><a href="/about.html" title="About Yen">About</a></li>
+          <li><a href="/work.html" title="Yen's Work">Work</a></li>
+          <li><a href="/contact.html" title="Contact Yen">Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -51,10 +57,18 @@
       <h1>Yen Chua</h1>
 
       <h3>Aspiring Front-end Developer based in Singapore</h3>
-      <a href="/about.html" class="btn btn-primary second-btn" role="button"
+      <a
+        href="/about.html"
+        title="About Yen"
+        class="btn btn-primary second-btn"
+        role="button"
         >About Me</a
       >
-      <a href="/contact.html" class="btn btn-primary prime-btn" role="button"
+      <a
+        href="/contact.html"
+        title="Contact Yen"
+        class="btn btn-primary prime-btn"
+        role="button"
         >Contact Me</a
       >
     </div>
@@ -103,6 +117,7 @@
         <div>
           <a
             href="/contact.html"
+            title="Contact Yen"
             class="btn btn-primary prime-btn"
             role="button"
             >Contact Me</a
@@ -110,25 +125,34 @@
         </div>
       </div>
       <div class="email-link">
-        <a href="mailto:chua.l.yen@gmail.com">chua.l.yen@gmail.com</a>
+        <a href="mailto:chua.l.yen@gmail.com" title="Email Yen"
+          >chua.l.yen@gmail.com</a
+        >
       </div>
       <div class="social-links">
-        <a href="https://github.com/chualy" target="_blank" class="shadow-xs"
+        <a
+          href="https://github.com/chualy"
+          target="_blank"
+          title="Github Profile"
+          class="shadow-xs"
           ><i class="fa-brands fa-github"></i
         ></a>
         <a
           href="https://instagram.com/chualyen?igshid=MzMyNGUyNmU2YQ=="
           target="_blank"
+          title="Instagram Profile"
           class="shadow-xs"
           ><i class="fa-brands fa-instagram"></i
         ></a>
       </div>
-      <small
-        >This page is coded by Yen Chua and hosted on
-        <a href="https://meek-tarsier-1a4bbb.netlify.app/" target="_blank"
-          >Netlify</a
-        >.</small
-      >
+      <div class="footer-text mt-3">
+        <small
+          >This page is coded by Yen Chua and is
+          <a href="https://github.com/chualy/portfolio-project" target="_blank"
+            >open-sourced</a
+          >.</small
+        >
+      </div>
     </footer>
   </body>
 </html>

@@ -181,10 +181,6 @@ footer .social-links a:hover {
   transition: all ease-in-out 300ms;
 }
 
-small {
-  line-height: 5;
-}
-
 footer small a {
   color: var(--branding-color);
 }
