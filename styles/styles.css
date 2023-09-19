@@ -17,13 +17,13 @@ h4 {
   font-family: "Libre Baskerville", serif;
   font-weight: bold;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-  margin: 40px;
+  margin: 20px;
   text-align: center;
 }
 
 h1 {
   color: var(--accent-color);
-  font-size: 96px;
+  font-size: 90px;
 }
 
 h2 {
@@ -31,25 +31,24 @@ h2 {
 }
 
 h3 {
-  font-size: 32px;
-  color: rgba(0, 0, 0, 0.6);
+  font-size: 34px;
+  color: var(--accent-color);
 }
 
 h4 {
-  font-size: 36px;
-  color: var(--accent-color);
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.6);
 }
 
 p {
   opacity: 0.9;
-  font-size: 24px;
+  font-size: 20px;
 }
 
-.logo {
-  max-width: 60px;
-}
-
-nav ul {
+/*NAVIGATION*/
+nav,
+ul {
+  background-color: white;
   margin: 0;
   padding: 0;
 }
@@ -62,14 +61,18 @@ nav li {
   margin-left: 40px;
 }
 
+.logo {
+  max-width: 60px;
+}
+
 nav a {
-  text-decoration-line: none;
+  text-decoration: none;
   color: var(--branding-color);
 }
 
 nav a:hover {
   color: var(--contrast-color);
-  text-decoration-line: underline;
+  text-decoration: underline;
   transition: all ease-in-out 200ms;
 }
 
@@ -77,6 +80,8 @@ nav .active {
   text-decoration-line: none;
   color: var(--accent-color);
 }
+
+/*HOMEPAGE - HERO*/
 
 .hero {
   background-color: var(--background-color);
@@ -202,7 +207,7 @@ footer small a:hover {
   h2,
   h3,
   h4 {
-    margin: 30px;
+    margin: 20px;
   }
 
   h1 {
@@ -226,7 +231,7 @@ footer small a:hover {
   }
 
   .hero {
-    padding: 5px;
+    padding: 20px;
   }
 
   .hero p {
