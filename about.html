@@ -34,16 +34,20 @@
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
   </head>
   <body>
-    <nav>
-      <div
-        class="d-flex justify-content-center justify-content-md-around align-items-center my-2 my-md-3"
-      >
-        <a href="/"><img src="images/logo.png" class="logo" alt="logo" /></a>
+    <nav
+      class="navbar sticky-top d-flex justify-content-md-around align-items-center"
+    >
+      <div class="container">
+        <a href="/" title="Home"
+          ><img src="images/logo.png" class="logo" alt="Yen Chua logo"
+        /></a>
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href=" /about.html" class="active">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li><a href="/" title="Home">Home</a></li>
+          <li>
+            <a href="/about.html" class="active" title="About Yen">About</a>
+          </li>
+          <li><a href="/work.html" title="Yen's Work">Work</a></li>
+          <li><a href="/contact.html" title="Contact Yen">Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -52,15 +56,16 @@
       <h1>About</h1>
       <div class="row section-intro">
         <div class="col-md-8">
-          <h2>Hi, I'm Yen Chua</h2>
+          <h2>Hi, I'm<br />Yen Chua</h2>
           <p>
             <strong
-              >I'm an aspiring Front-End Developer, based in Singapore.</strong
+              >an aspiring Front-End Developer, based in Singapore.</strong
             >
           </p>
           <p>
-            I enjoy combining art and science to share information and bring out
-            pertinent messages on the screen.
+            I have a background in pharmacy and have engaged in healthcare and
+            editorial work. In my freetime now, I am exploring my interest in
+            website building and music making.
           </p>
         </div>
         <div class="col-md-4 px-5 p-md-4">
@@ -68,6 +73,35 @@
             src="images/profile-pic.jpg"
             class="img-fluid rounded shadow-sm about-img"
           />
+        </div>
+        <div class="row mt-3 d-flex">
+          <div class="d-flex">
+            <img
+              src="/images/web-development.png"
+              class="about-why-web d-none d-md-inline-block mb-3"
+            />
+            <h3>Why Front-end Development?</h3>
+          </div>
+          <p>
+            My schooling days were in the era when we had internet dial-ups, and
+            we connected with friends using Friendster and MSN Messenger. Many
+            of us also maintain a blog. Back then, I only knew how to copy HTML
+            snippets to change my blog skin.
+          </p>
+          <p>
+            Times have change and the internet as well as mobile apps are now
+            part of our everyday life.
+          </p>
+          <p>
+            Now, as I slowly learn and work with HTML, CSS and Javascript, it is
+            interesting to know how much effort is spent in these web apps and
+            pages we consume daily.
+          </p>
+          <p>
+            I enjoy combining art and science to produce web pages to share
+            information. I am thrilled to be able to explore my creativity and
+            make these pages work and look good.
+          </p>
         </div>
       </div>
     </div>
@@ -103,10 +137,10 @@
         ></a>
       </div>
       <small
-        >This page is coded by Yen Chua and hosted on
-        <a href="https://meek-tarsier-1a4bbb.netlify.app/" target="_blank"
-          >Netlify</a
-        >.</small
+        >This page is coded by Yen Chua and is
+        <a href="https://github.com/chualy/portfolio-project" target="_blank"
+          >open-sourced</a
+        ></small
       >
     </footer>
   </body>

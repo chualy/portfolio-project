@@ -37,7 +37,7 @@ h3 {
 
 h4 {
   font-size: 28px;
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.5);
 }
 
 h5 {
@@ -47,7 +47,7 @@ h5 {
 }
 
 p {
-  opacity: 0.9;
+  opacity: 0.8;
   font-size: 20px;
 }
 
@@ -135,6 +135,11 @@ nav .active {
 .hero p {
   font-size: 40px;
   font-weight: semibold;
+}
+
+.about-why-web {
+  max-width: 10%;
+  height: auto;
 }
 
 /*CONTACT - FORM*/
