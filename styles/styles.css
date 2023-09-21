@@ -36,7 +36,7 @@ h3 {
 }
 
 h4 {
-  font-size: 30px;
+  font-size: 28px;
   color: rgba(0, 0, 0, 0.6);
 }
 
@@ -87,19 +87,7 @@ nav .active {
   color: var(--accent-color);
 }
 
-/*HOMEPAGE - HERO*/
-
-.hero {
-  background-color: var(--background-color);
-  text-align: center;
-  padding: 60px;
-  margin-bottom: 40px;
-}
-
-.hero p {
-  font-size: 40px;
-  font-weight: semibold;
-}
+/*BUTTONS*/
 
 .prime-btn,
 .second-btn {
@@ -135,12 +123,30 @@ nav .active {
   padding: 10px 100px;
 }
 
+/*HOMEPAGE - HERO*/
+
+.hero {
+  background-color: var(--background-color);
+  text-align: center;
+  padding: 60px;
+  margin-bottom: 40px;
+}
+
+.hero p {
+  font-size: 40px;
+  font-weight: semibold;
+}
+
+/*CONTACT - FORM*/
+
 .form-section {
   max-width: 60%;
   background-color: var(--background-color);
   margin: 0 auto;
   font-weight: semibold;
 }
+
+/*FOOTER*/
 
 footer {
   margin: 20px;
