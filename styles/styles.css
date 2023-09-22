@@ -143,6 +143,11 @@ nav .active {
   height: auto;
 }
 
+/*WORK - PROJECT SECTION*/
+.work-project-section {
+  scroll-margin-top: 50px;
+}
+
 /*CONTACT - FORM*/
 
 .form-section {
