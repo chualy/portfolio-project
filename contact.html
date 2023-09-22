@@ -34,16 +34,22 @@
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
   </head>
   <body>
-    <nav>
-      <div
-        class="d-flex justify-content-center justify-content-md-around align-items-center my-2 my-md-3"
-      >
-        <a href="/"><img src="images/logo.png" class="logo" alt="logo" /></a>
+    <nav
+      class="navbar sticky-top d-flex justify-content-md-around align-items-center"
+    >
+      <div class="container">
+        <a href="/" title="Home"
+          ><img src="images/logo.png" class="logo" alt="Yen Chua logo"
+        /></a>
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html" class="active">Contact</a></li>
+          <li><a href="/" title="Home">Home</a></li>
+          <li><a href="/about.html" title="About Yen">About</a></li>
+          <li><a href="/work.html" title="Yen's Work">Work</a></li>
+          <li>
+            <a href="/contact.html" title="Contact Yen" class="active"
+              >Contact</a
+            >
+          </li>
         </ul>
       </div>
     </nav>
@@ -111,12 +117,14 @@
     </div>
 
     <footer class="text-center">
-      <small
-        >This page is coded by Yen Chua and hosted on
-        <a href="https://meek-tarsier-1a4bbb.netlify.app/" target="_blank"
-          >Netlify</a
-        >.</small
-      >
+      <div class="footer-text">
+        <small
+          >This page is coded by Yen Chua and is
+          <a href="https://github.com/chualy/portfolio-project" target="_blank"
+            >open-sourced</a
+          >.</small
+        >
+      </div>
     </footer>
   </body>
 </html>
