@@ -157,6 +157,9 @@ nav .active {
   font-weight: semibold;
 }
 
+.contact-links i {
+  color: var(--contrast-color);
+}
 /*FOOTER*/
 
 footer {
